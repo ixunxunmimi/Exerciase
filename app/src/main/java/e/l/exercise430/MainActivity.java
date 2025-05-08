@@ -3,6 +3,7 @@ package e.l.exercise430;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -15,6 +16,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button getPoem;
     private Button layout;
     private Button photo;
+
+    private int a = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getPoem.setOnClickListener(this);
         layout.setOnClickListener(this);
         photo.setOnClickListener(this);
+
+        a += 9;
+
+        Log.e("tag","a:::"+a);
+
     }
 
 
