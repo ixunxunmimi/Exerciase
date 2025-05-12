@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button photo;
 
     private int a = 1;
+    private int b = 2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
