@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int a = 1;
     private int b = 2;
     private int c = 3;
+    private int d = 4;
 
 
     @Override
