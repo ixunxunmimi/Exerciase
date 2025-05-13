@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int x = 1;
 
     private String tag = "打印tag";
+    private String tag1 = "打印tag1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
