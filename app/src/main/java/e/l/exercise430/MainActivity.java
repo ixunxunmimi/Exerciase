@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button photo;
 
     private int a = 1;
+    private int b = 2;
+    private int c = 3;
+    private int d = 4;
+    private int e = 5;
+
 
     private String t ="啦啦啦啦啦啦";
 
